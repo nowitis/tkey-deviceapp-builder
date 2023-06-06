@@ -1,7 +1,7 @@
 # TKey device app builder image
 This repository provides a OCI image (_dockerized_ environment) to simplify the build process of TKey device apps.
 
-It is based on the [official image by Tillitis](ghcr.io/tillitis/tkey-builder), with the addition of `clang-tidy` for linting.
+It is based on the [official image by Tillitis](//ghcr.io/tillitis/tkey-builder), with the addition of `clang-tidy` for linting.
 
 ## Usage
 To build a device app, you need the TKey device libraries, in a directory next to this one. The device libraries are available in:
