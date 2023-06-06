@@ -3,7 +3,7 @@
 BUILDIMAGENAME=tkey-deviceapp-builder-local
 
 # default image used when running a container
-IMAGE=ghcr.io/nowitis/tkey-deviceapp-builder:1
+IMAGE=ghcr.io/nowitis/tkey-deviceapp-builder:latest
 
 all:
 	@echo "Targets:"

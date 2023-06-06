@@ -1,4 +1,5 @@
 FROM ghcr.io/tillitis/tkey-builder:2 as base
+LABEL org.opencontainers.image.source="https://github.com/nowitis/tkey-deviceapp-builder"
 
 RUN apt-get -qq update -y && \
 	DEBIAN_FRONTEND=noninteractive \
